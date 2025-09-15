@@ -1,0 +1,27 @@
+.inventory-popup-table {
+  border-spacing: 1.5rem;
+  border-collapse: separate;
+  text-align: left;
+}
+
+
+.inventory-popup-table-print-button {
+  background-color: var(--dark-green);
+  color: var(--light-yellow);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--light-yellow);
+}
+
+.inventory-log-close {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.inventory-log-button-unselected {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.inventory-log-button-selected {
+  background-color: rgba(0, 0, 0, 0.8);
+}
